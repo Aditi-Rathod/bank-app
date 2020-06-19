@@ -1,55 +1,19 @@
 <div class="body">
     <div class="form">
-        <table>
-        <tr>
-            <td>Name</td>
-            <td>Account No.</td>
-            <td>A/c Type</td>
-            <td>Toatal Balance</td>
-        </tr>
-
-        <tr>
-            <td>Robert Schwartz</td>
-            <td>100258963</td>
-            <td>Saving</td>
-            <td>20000</td>
-        </tr>
-
-        <tr>
-            <td>John Smith</td>
-            <td>100236476</td>
-            <td>Current</td>
-            <td>25000</td>
-        </tr>
-
-        <tr>
-            <td>Anna Smith</td>
-            <td>100236479</td>
-            <td>Current</td>
-            <td>30000</td>
-        </tr>
-
-        <tr>
-            <td>Robert Brown</td>
-            <td>124896556</td>
-            <td>Saving</td>
-            <td>50000</td>
-        </tr>
-
-        <tr>
-            <td>Roger Bacon</td>
-            <td>201478965</td>
-            <td>Saving</td>
-            <td>45000</td>
-        </tr>
-
-        <tr>
-            <td>Ajit Kumar</td>
-            <td>201456328</td>
-            <td>Current</td>
-            <td>40000</td>
-        </tr>
-        </table>
+        <label type="text">
+            <input type="text" id="name" placeholder="Enter Your Name">
+        </label>
+        <label type="text">
+            <input type="text" id="acn" placeholder="Enter Your Account No.">
+        </label>
+        <label type="text">
+            <input type="text" placeholder="Account type" list="account">
+                <datalist id="account">
+                    <option>Saving</option>
+                    <option>Current</option>
+                </datalist>
+        </label>
+        <button>View Balance</button>
     </div>
 </div>
 
