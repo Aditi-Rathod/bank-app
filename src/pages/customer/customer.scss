@@ -1,3 +1,15 @@
 div[data-id="l76r5mj3"]{
-  /*Write style in this block*/
+  .body{
+    background-image: url(./res/imgs/Pic4.png);
+    background-size: cover;
+    background-position: center;
+  }
+  nav {
+    a {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+  } 
 }
